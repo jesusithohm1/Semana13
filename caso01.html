@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Estilos generales */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #343434;
+        }
+        h1{
+            text-align: center;
+            color: #ffae00;
+            text-shadow: 3px 3px 5px #ffffff;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        header{
+            width: 60%;
+            padding: 1px;
+            margin: 5px;
+            text-align: center;
+            color: #ffffff;
+            background-color: #375596;
+            border-radius: 10px;
+        }
+        /* Estilos específicos */
+        .menu {
+            width: 60%;
+            margin: 5px;
+            padding: 1px;
+            text-align: center;
+            border-radius: 10px;
+            background-color: #375596;
+            color: #ffffff;
+        }
+        .container {
+            width: 60%;
+            padding: 1px;
+            margin: 5px;
+            border-radius: 10px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .cajita{
+            display: flex;
+            background-color: #ffffff;
+            border-radius: 10px;
+        }
+        .seccion {
+            display: inline-block;
+            width: 80%;
+            background-color: #375596;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .aside{
+            display: inline-block;
+            background-color: #375596;
+            padding: 100px;
+            margin: 5px;
+            border-radius: 10px; 
+        }
+        
+        .articulos {
+            background-color: #0e133b;
+            padding-bottom: px;
+            padding: 50px;
+            border-radius: 10px;
+        }
+        footer{
+            width: 60%;
+            padding: 1px;
+            margin: 5px;
+            background-color: #375596;
+            border-radius: 10px;
+            text-align: center;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estructura Semántica con HTML5 y CSS3</h1>
+    <header>
+        <p>Encabezado</p>
+    </header>
+    <div class="menu">
+        <p>Menú</p>
+    </div>
+    <div class="container">
+
+        <div class="cajita">
+            <div class="seccion">
+                <p>Sección</p>
+                <div class="articulos">
+                    <p>Articulos</p>
+                </div>
+            </div>
+            <div class="aside">
+                <p>Aside</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Pie de página</p>
+    </footer>
+</body>
+</html>
